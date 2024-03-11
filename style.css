@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    /* justify-content: right; */
+    justify-content: space-between;
+    border: 0.5 solid black;
+    box-shadow: 5px 5px 8px 3px #ccc;
+    background-color: brown;
+}
+
+.logo {
+    padding: 4px 4px;
+    margin-top: 3px;
+    width: 150px;
+    justify-content:left;   
+}
+
+
+.nav-items > ul {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    font-display: red;
+    list-style:none;
+    display: flex;
+    padding:18px 25px;
+}
+
+.nav-items > ul >li {
+    padding: 10px;
+    margin: 10px;
+    font-display: red;
+}
+
+.res-cart {
+    margin:50px;
+    /* height: 350px; */
+    width: 250px;
+    background-color: bisque;
+    padding : 8px;
+    cursor: pointer;  
+    border-radius: 10px;  
+}
+
+.res-cart :hover {
+    border: 1px solid yellowgreen;
+}
+
+
+.restro-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menus-img {
+    height : 60%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.container {
+    position: relative;
+    width: 700px; /* Adjust the width as needed */
+    /* display: flex; */
+    margin-left: 58vh;
+    box-shadow: 3px 3px 5px #ccc;
+  }
+
+.search-box {
+        width: 100%;
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing:border-box
+      }
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+.filter-btn {
+    display: flex;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.shimmer_Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shimmer {
+    margin: 50px;
+    border-top: 150px;
+    width: 250px;
+    background-color: bisque;
+    height:370px;
+    margin-top: 30px;
+    border-radius: 10px;  
+}
+
+.login-btn {
+    margin-top: 17px;
+    height: 50%;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    box-shadow: 3px 3px 5px #ccc;
+}
+
+.main-container >h1 {
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  color: rgb(22, 82, 135);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* .background-image {
+    width:fit-content;
+    height: fit-content;
+    background-image: url('./images/pexels-andy-song-15873691.jpg');
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: white;;
+} */
